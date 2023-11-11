@@ -1,0 +1,15 @@
+@media only screen and (max-width:768px) {
+    .navbar__nav .fa-bars{
+        display: block;
+    }
+    .navbar__nav a{
+        display: none;
+    }
+    .navbar__nav button{
+        display: none;
+    }
+    .banner{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}

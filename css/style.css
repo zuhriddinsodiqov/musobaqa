@@ -1,0 +1,121 @@
+  @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Lato:ital,wght@0,300;1,700&family=Lora:ital,wght@1,500;1,600&family=Montserrat:wght@300;400&family=Playfair+Display:ital@0;1&family=Roboto:ital,wght@1,300;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.container{
+    max-width: 85%;
+    margin: 0 auto;
+}
+img{
+    width: 100%;
+   height: 100%;
+   display: block;
+}
+:root{
+         --lato: 'Lato', sans-serif;
+        --lora: 'Lora', serif;
+        --mon: 'Montserrat', sans-serif;
+        --play: 'Playfair Display', serif;
+        --roboto: 'Roboto', sans-serif;
+        --yano: 'Yanone Kaffeesatz', sans-serif;
+}
+a{
+    color: black;
+}
+.navigation{
+    width: 100%;
+    height: 10vh;
+    padding: 2rem 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__logo  a{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.navbar__nav a{
+    font-size: 1.2rem;
+    font-family: var(--play);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.navbar__nav button{
+    width: 20%;
+    padding: 7px 20px;
+    border-radius: 30px;
+    background-color:#081158;
+    color: #EC7756;
+    transition: all 0.5s linear;
+}
+.navbar__nav button:hover{
+    background-color: #fff;
+    color: black;
+}
+/* banner :start */
+.header{
+    width: 100%;
+    height: 90vh;
+}
+.banner{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    align-items: center;
+}
+.banner .item span{
+    padding: 5px 5px;
+    border-radius: 30px;
+    background-color: #ec7755;
+    color: white;
+}
+.banner .item h1{
+    font-size: 3rem;
+    color: rgb(3, 3, 174);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+}
+.banner .item{
+    margin-top: 5rem;
+}
+.banner .item p{
+    text-align: justify;
+    margin-bottom: 1rem;
+    opacity: 0.2;
+}
+.banner .item .button{
+    padding: 1rem ;
+    background-color: #081158;
+    border-radius: 30px;
+    color: #fff;
+    transition: all 0.5s linear;
+}
+.banner .item button{
+    padding: 1rem ;
+    border: 1px solid blue;
+    border-radius: 30px;
+    transition: all 0.5s linear;
+    color: blue;
+}
+.banner .item .button:hover{
+    background-color: #fff;
+    color: #081158;
+}
+.banner .item button:hover{
+    background-color: #081158;
+    color: #fff;
+}
+.navbar__nav .fa-bars{
+    font-size: 1.3rem;    
+}
+/* .our{
+    width: 100%;
+    padding: 4rem 0;
+} */
